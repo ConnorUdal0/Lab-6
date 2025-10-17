@@ -5,9 +5,10 @@ package com.example.listycity;
  * Implements Comparable to allow sorting by city name.
  */
 public class City implements Comparable<City> {
+    int a = 0;
+    
     private String city;
     private String province;
-
     /**
      * Constructs a City with a given name and province.
      * @param city The name of the city
